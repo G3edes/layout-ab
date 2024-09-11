@@ -15,11 +15,25 @@ ul, ol, li{
 body{
     height: 100vh;
     display:flex ;
+    padding-inline: 80px;
     flex-direction: column;
 }
 header{
     height: 200px;
     background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 96px;
+    width: 96px;
+    background-color: bisque;    
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
 }
 main{
     flex-grow: 1;
