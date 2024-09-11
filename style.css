@@ -99,8 +99,18 @@ main{
     background-color: lightgray;
     border-radius: 50%;
 }
-.social ps{
-    background-image: url(./img/ps5.png);
+.ps{
+    background-image: url(./img/logops.png);
+    background-repeat: no-repeat no-repeat;
+    background-size:cover ;
+}
+.xbox{
+    background-image: url(./img/logoxbox.png);
+    background-repeat: no-repeat no-repeat;
+    background-size:cover ;
+}
+.pc{
+    background-image: url(./img/logopc.jpeg);
     background-repeat: no-repeat no-repeat;
     background-size:cover ;
 }
